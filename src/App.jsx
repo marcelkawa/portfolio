@@ -197,10 +197,10 @@ function App() {
                 <span className="text-sky-500 font-bold">Python</span>
               </div>
               <div className="absolute bottom-10 left-[-20px] p-3 bg-gray-900 rounded-full border border-blue-500/50 shadow-[0_0_15px_rgba(59,130,246,0.3)] animate-float-delayed">
-                <span className="text-blue-500 font-bold">SQL</span>
+                <span className="text-blue-500 font-bold">React</span>
               </div>
               <div className="absolute bottom-0 right-10 p-3 bg-gray-900 rounded-full border border-cyan-500/50 shadow-[0_0_15px_rgba(6,182,212,0.3)] animate-float">
-                <span className="text-cyan-500 font-bold">React</span>
+                <span className="text-cyan-500 font-bold">SQL</span>
               </div>
             </div>
           </div>
