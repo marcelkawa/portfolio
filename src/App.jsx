@@ -18,9 +18,9 @@ const personalInfo = {
 const skills = {
   left: [
     { name: "Python", level: 8, color: "text-sky-500", bgColor: "bg-sky-500" },
-    { name: "MySQL", level: 7, color: "text-blue-500", bgColor: "bg-blue-500" },
-    { name: "SQLite", level: 7, color: "text-blue-400", bgColor: "bg-blue-400" },
-    { name: "Git", level: 6, color: "text-orange-500", bgColor: "bg-orange-500" },
+    { name: "MySQL", level: 6, color: "text-blue-500", bgColor: "bg-blue-500" },
+    { name: "React", level: 7, color: "text-blue-400", bgColor: "bg-blue-400" },
+    { name: "Git", level: 7, color: "text-orange-500", bgColor: "bg-orange-500" },
   ],
   right: [
     { name: "MS Office", level: 9, color: "text-blue-300", bgColor: "bg-blue-300" },
