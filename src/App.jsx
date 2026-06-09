@@ -163,7 +163,12 @@ function App() {
               </a>
               
               <div className="flex gap-4 ml-4">
-                <a href="#!" className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
+                <a 
+                   href="https://github.com/marcelkawa" 
+                   target="_blank"
+                   rel="noopener norefferer"
+                   aria-label="GitHub Profil"
+                   className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
                   <Github size={20} />
                 </a>
                 <a href="#!" className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
