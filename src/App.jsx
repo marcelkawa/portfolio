@@ -284,7 +284,7 @@ function App() {
       {/* Projekte Section */}
       <section id="projekte" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="flex flex-col items-center mb-12">
-          <h2 className="text-4xl font-bold text-white mb-8">Meine Projekte</h2>
+          <h2 className="text-4xl font-bold text-white mb-8">Meine Projekte (Demo)</h2>
           
           <div className="bg-gray-800/50 p-1 rounded-full border border-white/10 flex relative">
             <button onClick={() => setActiveProjectType('app')} className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${activeProjectType === 'app' ? 'bg-gradient-to-r from-blue-600 to-cyan-500 text-white shadow-lg' : 'text-gray-400 hover:text-white'}`}>
