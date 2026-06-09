@@ -209,35 +209,24 @@ function App() {
 
       {/* Über Mich Section */}
       <section id="über-mich" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
-        <div className="flex flex-col items-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">Über Mich</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full"></div>
-        </div>
+      <div className="flex flex-col items-center mb-16">
+      <h2 className="text-4xl font-bold text-white mb-4">Über Mich</h2>
+      <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full"></div>
+      </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="relative flex justify-center order-2 md:order-1">
-             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-2 border-cyan-500/30 shadow-[0_0_50px_rgba(6,182,212,0.2)]">
-                <img 
-                  src="/assets/images/marcel-desk.png" 
-                  alt="Profile" 
-                  className="w-full h-full object-cover"
-                  onError={(e) => {e.target.style.display='none'; e.target.parentElement.innerHTML = '<div class="w-full h-full bg-gray-800 flex items-center justify-center text-gray-500">Bild fehlt</div>'}}
-                />
-             </div>
-          </div>
+      <div className="max-w-3xl mx-auto text-center">
+      <h3 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
+      Praxis trifft Code
+      </h3>
 
-          <div className="space-y-8 order-1 md:order-2">
-            <div>
-              <h3 className="text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500 mb-4">
-                Praxis trifft Code
-              </h3>
-              <p className="text-gray-300 leading-relaxed text-lg mb-6">
-                Mein Weg in die IT ist geprägt durch praktische Erfahrung in der Industrie. Als Maschinen- und Anlagenführer sowie Qualitätsprüfer habe ich gelernt, wie wichtig präzise Prozesse sind. Ein Wissen, das ich nun in die Softwareentwicklung einbringe.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p className="text-gray-300 leading-relaxed text-lg mb-6">
+      Mein Weg in die IT ist geprägt durch praktische Erfahrung in der Industrie.
+      Als Maschinen- und Anlagenführer sowie Qualitätsprüfer habe ich gelernt,
+      wie wichtig präzise Prozesse sind. Ein Wissen, das ich nun in die
+      Softwareentwicklung einbringe.
+      </p>
+    </div>
+  </section>
 
       {/* Skills Section */}
       <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
