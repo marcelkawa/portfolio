@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { 
-  Github, Linkedin, Mail, Download, PlayCircle, 
+  Github, Mail, Download, PlayCircle, 
   Menu, X, MapPin, Phone, Send 
 } from 'lucide-react';
 
@@ -157,7 +157,9 @@ function App() {
 
             <div className="flex flex-wrap gap-4 items-center">
               {/* Pfad zum Lebenslauf im public Ordner korrigiert */}
-              <a href="/assets/data/Lebenslauf.pdf" download="Lebenslauf_Marcel_Kawa.pdf" className="group relative px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full text-white font-medium transition-all hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] flex items-center gap-2">
+              <a href="/assets/data/Lebenslauf.pdf" 
+                 download="Lebenslauf_Marcel_Kawa.pdf" 
+                 className="group relative px-8 py-3 bg-gradient-to-r from-blue-600 to-cyan-500 rounded-full text-white font-medium transition-all hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] flex items-center gap-2">
                 Lebenslauf herunterladen
                 <span className="group-hover:translate-y-1 transition-transform"><Download size={18} /></span>
               </a>
@@ -171,9 +173,7 @@ function App() {
                    className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
                   <Github size={20} />
                 </a>
-                <a href="#!" className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
-                  <Linkedin size={20} />
-                </a>
+                
                 <a href={`mailto:${personalInfo.email}`} className="p-2 bg-gray-800/50 rounded-full hover:bg-gray-700/50 hover:text-cyan-400 transition-colors border border-white/5 hover:border-cyan-500/30">
                   <Mail size={20} />
                 </a>
